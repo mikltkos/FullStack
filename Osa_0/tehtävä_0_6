@@ -1,0 +1,13 @@
+title Single Page App new note
+note over Selain:
+Lisätään note json-rakenteeseen.
+redrawNotes funktio näyttää uuden listan.
+Palvelimelle lähtee yksi pyyntö, jonka
+mukana on uusi note lista json-muotoisena.
+end note
+Selain->Palvelin: https://fullstack-exampleapp.herokuapp.com/new_note_spa
+Palvelin-->Selain: {"message":"note created"}
+note over Selain:
+Vastauksena saadaan viesti:
+note created
+end note

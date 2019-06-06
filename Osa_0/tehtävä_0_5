@@ -1,0 +1,25 @@
+title Single Page App
+
+Selain->Palvelin: https://fullstack-exampleapp.herokuapp.com/spa
+Palvelin-->Selain: HTML-koodia
+note over Selain:
+HTML-koodin otsakkeesta löytyy
+css- ja js-tiedostot jotka pyydetään
+seuraavaksi palvelimelta
+end note
+Selain->Palvelin: https://fullstack-exampleapp.herokuapp.com/main.css
+Palvelin-->Selain: main.css
+Selain->Palvelin: https://fullstack-exampleapp.herokuapp.com/spa.js
+Palvelin-->Selain: spa.js
+note over Selain:
+Selain ajaa javascriptin,
+joka pyytää palvelimelta 
+dataa json muotoisena
+end note
+Selain->Palvelin: https://fullstack-exampleapp.herokuapp.com/data.json
+Palvelin-->Selain: data.json
+note over Selain:
+Kun pyyntö-operaatio on valmis
+generoi javascript pyydetystä
+datasta listan sivulle.
+end note
